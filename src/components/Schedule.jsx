@@ -47,12 +47,9 @@ function Schedule(){
       div.style {
         background-color: rgb(255, 204, 153, .7);
         border: 10px solid darkred;
-        margin: 
         padding: 50px;
-        margin-top: 20px;
         border-radius: 5px;
         box-shadow: 0 0 5px black;
-        margin: 10px;
         padding: 10px;
       }
     `}</style>
