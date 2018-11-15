@@ -42,11 +42,13 @@ const marketSchedule = [
 
 function Schedule(){
   return(
-    <div className='col-md-3'>
+    <div>
       <style jsx>{`
       div.style {
-        background-color: rgb(255, 204, 153, .7);
-        border: 10px solid darkred;
+        text-align: center;
+        background-color: rgb(0, 0, 0, .7);
+        color: white;
+        border: 10px solid #007bff;
         padding: 50px;
         border-radius: 5px;
         box-shadow: 0 0 5px black;

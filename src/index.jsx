@@ -3,12 +3,16 @@ import ReactDOM from 'react-dom';
 import App from './components/App';
 import { AppContainer } from 'react-hot-loader';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import { HashRouter } from 'react-router-dom';
+
 var module;
 
 const render = (Component) => {
   ReactDOM.render(
     <AppContainer>
-      <Component/>
+      <HashRouter>
+        <Component/>
+      </HashRouter>
     </AppContainer>,
     document.getElementById('react-app-root')
   );

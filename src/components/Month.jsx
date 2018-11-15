@@ -16,11 +16,11 @@ function Month(props){
         }
         li {
           display: inline-block;
-          color: darkred;
+          color: white;
           font-weight: bold;
         }
         li:nth-child(odd) {
-          color: darkgreen;
+          color: gray;
         }
       `}</style>
       <h5 className="months marketFont">{props.month}</h5>
